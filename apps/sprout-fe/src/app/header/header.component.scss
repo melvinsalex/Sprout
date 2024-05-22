@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    &__logo{
+        height: 50px;
+    }
+
+    &__search{
+        width: 700px;
+        input{
+            margin-left: 15px;
+        }
+        mat-form-field{
+            width: 100%;
+        }
+    }
+}
